@@ -1,0 +1,47 @@
+
+:root{
+    --g:#2D4356;
+    --lg:#435B66;
+    --llg:#A76F6F;
+    --lllg:#EAB2A0;
+}
+
+body,h1,brief{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2px;
+}
+.one{
+    background-image: url('../media/vgp.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--g);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,);
+    text-align: center;
+}
+.a button{
+   
+    width: 30%;
+   top: 100px;
+    background-color:#fcdcdc;
+    border-color: #435B66;
+  
+    border-radius: 8px;
+    font-size: 20px;
+}   
+.b button{
+   
+    width: 30%;
+  
+    background-color:#b8aeae;
+    border-color: #435B66;
+    top: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}   
+h2{
+    margin-top: 60px;
+}

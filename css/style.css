@@ -1,0 +1,53 @@
+:root{
+    --g:#2D4356;
+    --lg:#435B66;
+    --llg:#A76F6F;
+    --lllg:#EAB2A0;
+}
+
+body,h1,brief{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    background-image: url('../media/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--lg);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,);
+    text-align: center;
+}
+img{
+    position: relative;
+    left:10%;
+   top: 60px;
+    bottom: 5px;
+    border: 3px solid #A76F6F;
+    border-radius: 8px;
+}
+.b button{
+   
+    width: 20%;
+  
+    background-color:#fcdcdc;
+    border-color: #435B66;
+    margin-top: 30px;
+    margin-bottom:200px;
+    margin-left: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}    
+.a button{
+    width: 20%;
+    position: relative;
+    background-color:#fcdcdc;
+    border-color: #435B66;
+  
+    bottom: 150px;
+    margin-left: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
